@@ -1,0 +1,80 @@
+.header__logo {
+	font: 500 30px/37px montserratmedium;
+}
+
+.header__lang-switchers {
+	font: 500 20px/24px montserratmedium;
+}
+
+.content-title {
+	font: 700 80px/82px montserratbold;
+}
+
+.content__text-new-сollection {
+	font: normal 15px/21px montserratregular;
+}
+.content__btn {
+	font: 500 13px montserratmedium;
+}
+
+.content__link {
+	font: 500 13px montserratmedium;
+}
+
+.select__title-product {
+	font: 700 40px/41px montserratbold;
+}
+
+.select__subtitle-product {
+	font: 700 16px/16px montserratbold;
+}
+
+.select__text-product {
+	font: normal 15px/21px montserratregular;
+}
+
+.product__select-price {
+	font: 700 40px/56px montserratbold;
+}
+
+.product__select-quantity {
+	font: 500 15px montserratmedium;
+}
+
+.product__btn-add {
+	font: 500 13px montserratmedium;
+}
+
+.product__select-excerpt {
+	font: 500 13px/16px montserratmedium;
+}
+
+.look__content-title {
+	font: 700 40px/41px montserratbold;
+}
+
+.look__content-subtitle {
+	font: 700 16px/16px montserratbold;
+}
+
+.look__content-text {
+	font: normal 15px/21px montserratregular;
+}
+
+.look__quantity {
+	font: 500 15px montserratmedium;
+}
+
+.look__btn_less-add {
+	font: 500 13px montserratmedium;
+}
+
+.look__link-excerpt {
+	font: 500 13px/14px montserratmedium;
+}
+
+.footer__text {
+	font: 700 12px/15px montserratbold;
+}
+
+

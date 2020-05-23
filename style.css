@@ -1,10 +1,72 @@
+.new-collection {
+	background: linear-gradient(to right, #000 460px, #fff 460px);
+}
+
+.wrap__header_logo {
+	display: flex;
+	align-items: flex-start;
+	padding-left: 52px;
+	align-items: center;
+}
+
 .header__logo {
 	font: 500 30px/37px montserratmedium;
+	color: white;
+    margin-top: 0;
+    padding-top: 36px;
+    margin-right: 238px;
+    align-items: center;
 }
 
 .header__lang-switchers {
 	font: 500 20px/24px montserratmedium;
+	-webkit-appearance: none;
+	border-style: none;
+	margin-right: 0px;
+	width: 31px;
+	height: 25px;
+	text-align: right;
+	color: #FFFFFF;
+	background: none;
 }
+.img__lang-switchers {
+	width: 11px;
+    height: 5.5px;
+}
+
+.header__menu { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92px;
+    height: 92px;
+    background-color: #f2f2f2;
+    margin-left: auto;
+    cursor: pointer; 
+} 
+
+.header__menu-icon { 
+    align-self: center; 
+    margin: auto; 
+} 
+
+.new-collection__wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 137px 0 0 2px;
+}
+
+.new-сollection__img-pk {
+    max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  align-self: center;
+}
+
 
 .content-title {
 	font: 700 80px/82px montserratbold;

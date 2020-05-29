@@ -4,8 +4,9 @@ body {
 	overflow-x: scroll;
 }
 
-button, a:hover{
+button, a:hover {
 	cursor: pointer;
+	opacity: 0.9;
 }
 
 /*-------------------header-------------------*/
@@ -25,13 +26,13 @@ button, a:hover{
 }
 
 .header__logo {
-	font: 500 30px/100px montserratmedium;
+	font: normal 500 30px/100px Montserrat;
 	color: white;
 	letter-spacing: 0.07em;
 }
 
 .header__language {
-	font: 500 20px montserratmedium;
+	font: normal 500 20px Montserrat;
 	color: white;
 	padding-top: 39px;
 } 
@@ -45,9 +46,9 @@ button, a:hover{
 
 .main__content {
 	display: flex;
-	overflow: auto;
 	justify-content: center;
 	align-items: center;
+	overflow: auto;	
 }
 
 .main, .header {	
@@ -70,11 +71,10 @@ button, a:hover{
 }
 
 .main__title {
-	font: 700 80px/82px montserratbold;	
+	font: normal bold 80px/82px Montserrat;	
     margin-bottom: 0;
 	margin-top: 30px;
 	padding-left: 10px;
-	justify-items: center;
 }
 
 .main__arrow-down {
@@ -82,30 +82,35 @@ button, a:hover{
 }
 
 .main__description {
-	font: normal 15px/21px montserratregular;	
 	display: block;
+	font: normal normal 15px/21px Montserrat;
 	max-width: 467px;	
 	margin-bottom: 35px;
 	padding-left: 10px;	
 }
 
 .main__btn {
-	font: 500 13px montserratmedium;
+	font: normal 500 13px Montserrat;
+	display: inline-block;
 	background: white;
 	border: 1.5px solid #000000;
 	width: 42.8%;
-	height: 44px;    
-	display: inline-block;
-	margin-left: 6px;
-	margin-right: 6%;
+    height: 44px;    
+    margin-left: 6px;
+    margin-right: 6%;
 }
 
+.main__btn:hover {
+    background-color: #d3cfcf;
+}
+
+
 .main__link {
-	font: 500 13px montserratmedium;
+	font: normal 500 13px Montserrat;
+	display: inline-block;
 	color: black;
 	text-decoration: none;
-	display: inline-block;
-}
+}	
 
 .main__arrow {
 	margin-left: 14px;
@@ -151,7 +156,7 @@ button, a:hover{
 	}
 
 	.header__logo {
-		font: normal 30px/37px montserratregular;
+		font: normal 500 30px/37px Montserrat;;
 		color: black;
 		text-align: center;
 		letter-spacing: 0.07em;
@@ -167,19 +172,15 @@ button, a:hover{
 
 	.main__content {		
 		position: relative;		
-		display: grid;
-		justify-content: inherit;
-		overflow: hidden;
 	}
 
 	.main__picture {
-		height: 100%;
 		width: 100%;
 		padding-left: 0;
 	}
 
 	.main__photo {		
-		height:100%;
+		height: 100%;
 		max-width: 768px;
 		margin-right: 0;
 	}
@@ -195,7 +196,7 @@ button, a:hover{
 	}
 
 	.main__title {
-		font: 700 50px/51px montserratbold;	
+		font: normal bold 50px/51px Montserrat;	
 		padding-left: 22px;
 	}
 
@@ -205,11 +206,13 @@ button, a:hover{
 
 @media (min-width:769px) and (max-width: 900px) {
 	.main__title{
-		font: 700 60px/62px montserratbold;
+		font: normal bold 60px/62px Montserrat;
 	}
+
 	.main__description {
-		font: 500 12px/18px montserratregular;
+		font: normal normal 12px/18px Montserrat;
 	}
+
 	.main__btn, .main__link {
 		font-size: 10px;
 		width: 36%;

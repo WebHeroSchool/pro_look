@@ -19,10 +19,10 @@ button, a:hover {
 
 .header__title {
 	display: flex;
-    justify-content: space-between;
-    width: 25%;
-    padding-top: 6px;
-    padding-left: 52px;
+	justify-content: space-between;
+	width: 25%;
+	padding-top: 6px;
+	padding-left: 52px;
 }
 
 .header__logo {
@@ -37,9 +37,17 @@ button, a:hover {
 	padding-top: 39px;
 } 
 
+.header__language:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
 .header__menu-icon {
 	max-height: 92px;
 	max-width: 92px;		
+}
+.header__menu-icon:hover {
+	opacity: 0.6;
 }
 
 /*-------------------main-------------------*/
@@ -98,6 +106,7 @@ button, a:hover {
     height: 44px;    
     margin-left: 6px;
     margin-right: 6%;
+    text-transform: uppercase;
 }
 
 .main__btn:hover {
@@ -110,6 +119,7 @@ button, a:hover {
 	display: inline-block;
 	color: black;
 	text-decoration: none;
+	text-transform: uppercase;
 }	
 
 .main__arrow {

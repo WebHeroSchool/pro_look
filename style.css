@@ -44,7 +44,7 @@ button, a:hover {
 
 .header__menu-icon {
 	max-height: 92px;
-	max-width: 92px;		
+	max-width: 92px;			
 }
 .header__menu-icon:hover {
 	opacity: 0.6;
@@ -154,6 +154,7 @@ button, a:hover {
 
 	.main, .header {	
 		background: white;
+		font-size: 0;
 	}	
 
 	.header {

@@ -67,6 +67,7 @@ button, a:hover {
 	width: 100%;
 	max-width: 550px;	
 	margin-right: 46px;	
+	height: auto;
 }
 
 .main__article {	
@@ -116,6 +117,9 @@ button, a:hover {
 	text-decoration: none;
 	text-transform: uppercase;
 }
+.main__link:hover {
+    opacity: 0.6;
+}
 
 .main__arrow {
 	margin-left: 14px;
@@ -132,6 +136,12 @@ button, a:hover {
 	background: white;
 	border: none;	
 	margin-right: 2.7%;
+	width: 27px;
+    height: 46px;
+}
+
+.main__btn_scroll:hover {
+	opacity: 0.6;
 }
 /*-------------------clatch-------------------*/
 .clatch {
@@ -150,6 +160,7 @@ button, a:hover {
 
 .clatch__photo {
 	width: 100%;
+	height: auto;
 	max-width: 664px;
 	max-height: 552px;	    
 }
@@ -185,7 +196,7 @@ button, a:hover {
 }
 
 .clatch__detail {
-	margin-bottom: 39px;
+	margin-bottom: 31px;
 }
 
 .clatch__detail, .clatch__btns, .look__btns {
@@ -205,6 +216,7 @@ button, a:hover {
 .clatch__gray-point:hover, .clatch__blue-point:hover, 
 .clatch__green-point:hover, .clatch__pink-point:hover {
 	opacity: 0.6;
+	cursor: pointer;
 }
 
 .clatch__gray-point {	
@@ -231,6 +243,7 @@ button, a:hover {
 	font: normal bold 40px/56px Montserrat;
 	padding: 9px 9px 0 0;
 	display: inline-block;
+	width: 115px;
 }
 
 .clatch__btn-minus-plus, .look__btn-minus-plus {
@@ -245,9 +258,11 @@ button, a:hover {
 	align-items: center;
 
 }
+
 .clatch__btn-minus:hover,.clatch__btn-plus:hover,
 .look__btn-minus:hover,.look__btn-plus:hover {
-	font-size: 25px;
+	font-size: 15px;
+	color: grey;
 }
 
 .clatch__btn-add, .look__btn-add {	
@@ -277,6 +292,9 @@ button, a:hover {
 	padding-left: 12px;
 	padding-top: 3px;
 }
+.clatch__link:hover {
+    opacity: 0.6;
+}
 /*-------------------look-------------------*/
 .look, .footer {
 	background: linear-gradient(to right, #EBE3D8 27%, black 27%, black 32%, #EBE3D8 32%);
@@ -292,6 +310,7 @@ button, a:hover {
 
 .look__photo {
 	width: 100%;
+	height: auto;
 	max-width: 830px;
 	max-height: 621px;
 	padding-left: 45px;
@@ -326,6 +345,10 @@ button, a:hover {
 	display: block;
 	padding-left: 140px;
 }
+
+.look__link:hover {
+	opacity: 0.6;
+}
 /*-------------------footer-------------------*/
 .footer {
 	display: flex;
@@ -337,6 +360,10 @@ button, a:hover {
 .footer__txt {
 	font: normal bold 12px/15px Montserrat;
 	text-transform: uppercase;
+}
+.footer__logo {
+width: 82px;
+height: 22px; 
 }
 
 @media (max-width: 1237px) {

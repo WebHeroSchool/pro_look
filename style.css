@@ -184,9 +184,12 @@ height: 5.5px;
 
 .clatch__article {
 	background: white;
-    padding: 1.2% 9% 8% 14%;
-    margin-bottom: 7%;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    min-width: 400px;
+    padding: 20px;
 }
 
 .clatch__title, .look__title {
@@ -309,6 +312,7 @@ height: 5.5px;
 	max-width: 100%;
     height: auto;
 }
+
 .clatch__link:hover {
     opacity: 0.6;
 }
@@ -488,6 +492,8 @@ height: 22px;
 
 	.header {
 		padding-bottom: 0;
+		z-index: 99;
+        position: relative;
 	}
 
 	.header__title {
@@ -513,6 +519,8 @@ height: 22px;
 		display: grid;
 		justify-content: inherit;
 		overflow: hidden;
+		margin-top: -55px;
+        z-index: 0;
 	}
 
 	.main__picture {
@@ -539,11 +547,13 @@ height: 22px;
 
 	.main__title {
 		font: normal bold 50px/51px Montserrat;	
-		padding-left: 16px;
+		padding-left: 12px;
 	}
 
 	.main__arrow-down {
 		display: block;
+		margin-right: 28px;
+
 	}
 	/*-------------------clatch-------------------*/
 	.clatch {
@@ -557,16 +567,14 @@ height: 22px;
 	}
 
 	.clatch__photo {	    
-		padding: 50px 0 30px 0;
+		padding: 50px 0 0px 0;
 	}
 
 	.clatch__content {
-		margin: 32px;
 	}
 
 	.clatch__article {	   
 	    padding: 16px 0px 30px 0;
-        margin-bottom: 54px 
 	}
 
 	.clatch__title, .look__title {
@@ -578,17 +586,17 @@ height: 22px;
 	.clatch__subtitle, .look__subtitle {
 		font: normal bold 10px/10px Montserrat;
 		padding-left: 30px;
-		margin-bottom: 22px;
+		margin-bottom: 5px;
 	}
 
 	.clatch__description, .look__description {
 		font: normal normal 9px/13px Montserrat;	
 		padding: 0 25px 0 30px;		
-		margin-bottom: 10px;   
+		margin-bottom: 0px;   
 	}
 
 	.clatch__detail {		
-		margin-bottom: 20px;
+		margin-bottom: 13px;
 		padding: 0 25px 0 30px;  
 	}
 

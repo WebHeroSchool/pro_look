@@ -168,7 +168,7 @@ height: 5.5px;
 .clatch__picture {
 	display: flex;
 	align-items: center;
-	padding: 2% 5% 10% 8%;
+	padding: 2% 4% 10% 10%;
 }
 
 .clatch__photo {
@@ -180,6 +180,7 @@ height: 5.5px;
 
 .clatch__content {
 	margin-right: 57px;
+	margin: 0 auto;
 }
 
 .clatch__article {
@@ -572,14 +573,17 @@ height: 22px;
 	}
 
 	.clatch__article {	   
-		max-width: 308px;
-	    padding: 16px 0px 30px 0;
+		max-width: 320px;
+        padding: 11px 0px 30px 13px;
+        margin: 23px;
+        margin-bottom: 48px;
 	}
 
 	.clatch__title, .look__title {
 		font: normal bold 20px/20px Montserrat;
 		padding-left: 30px;
 		margin-bottom: 6px;
+		line-height: 24px;
 	}
 
 	.clatch__subtitle, .look__subtitle {
@@ -652,13 +656,14 @@ height: 22px;
 	}
 
 	.look__article {
-		max-width: 305px;
-		padding: 5px 15px 20px 20px;
+		padding: 22px 21px 28px 25px;
+        margin-bottom: 37px;
+        max-width: 470px;
 	}
 
 	.look__title, .look__subtitle, 
 	.look__description {
-		padding-left: 0;
+		padding-left: 14px;
 	} 
 
 	.look__link {

@@ -40,8 +40,8 @@ button, a:hover {
 }
 
 .header__language-icon {
-width: 11px;
-height: 5.5px;
+	width: 11px;
+	height: 5.5px;
 }
 
 .header__menu-icon {
@@ -123,13 +123,13 @@ height: 5.5px;
 	text-transform: uppercase;
 }
 .main__link:hover {
-    opacity: 0.6;
+	opacity: 0.6;
 }
 
 .main__arrow {
 	margin-left: 14px;
 	max-width: 100%;
-    height: auto;
+	height: auto;
 }
 
 .main__footer {
@@ -141,8 +141,8 @@ height: 5.5px;
 }
 
 .main__instagram-icon,.main__vk-icon, .main__facebook-icon {
-    width: 43px;
-    height: 43px;
+	width: 43px;
+	height: 43px;
 }
 
 .main__btn_scroll {
@@ -150,7 +150,7 @@ height: 5.5px;
 	border: none;	
 	margin-right: 2.7%;
 	width: 27px;
-    height: 46px;
+	height: 46px;
 }
 
 .main__btn_scroll:hover {
@@ -185,19 +185,19 @@ height: 5.5px;
 
 .clatch__article {
 	background: white;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 40px;
-    box-sizing: border-box;
-    margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 40px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
 }
 
 .clatch__title, .look__title {
 	font: normal bold 40px/41px Montserrat;
 	margin-top: 0;
-    margin-bottom: 16px;
-    padding-top: 17px;
+	margin-bottom: 16px;
+	padding-top: 17px;
 }
 
 .clatch__subtitle, .look__subtitle {
@@ -213,7 +213,7 @@ height: 5.5px;
 	max-width: 368px;
 	opacity: 0.5;
 	margin-top: 0;
-    margin-bottom: 17px;
+	margin-bottom: 17px;
 }
 
 .clatch__detail {
@@ -312,11 +312,11 @@ height: 5.5px;
 	padding-left: 12px;
 	padding-top: 3px;
 	max-width: 100%;
-    height: auto;
+	height: auto;
 }
 
 .clatch__link:hover {
-    opacity: 0.6;
+	opacity: 0.6;
 }
 /*-------------------look-------------------*/
 .look, .footer {
@@ -343,10 +343,10 @@ height: 5.5px;
 .look__content {
 	transform: translateX(-20%);
 	width: 85%;
-    max-width: 475px;
-    height: auto;
-    right: 116px;
-    z-index: 2;  
+	max-width: 475px;
+	height: auto;
+	right: 116px;
+	z-index: 2;  
 
 }
 
@@ -380,8 +380,8 @@ height: 5.5px;
 }
 
 .look__link-icon  {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 /*-------------------footer-------------------*/
 .footer {
@@ -399,8 +399,8 @@ height: 5.5px;
 }
 
 .footer__logo {
-width: 82px;
-height: 22px; 
+	width: 82px;
+	height: 22px; 
 }
 
 @media (max-width: 1237px) {
@@ -495,7 +495,7 @@ height: 22px;
 	.header {
 		padding-bottom: 0;
 		z-index: 99;
-        position: relative;
+		position: relative;
 	}
 
 	.header__title {
@@ -522,7 +522,7 @@ height: 22px;
 		justify-content: inherit;
 		overflow: hidden;
 		margin-top: -55px;
-        z-index: 0;
+		z-index: 0;
 	}
 
 	.main__picture {
@@ -574,9 +574,9 @@ height: 22px;
 
 	.clatch__article {	   
 		max-width: 320px;
-        padding: 11px 0px 30px 13px;
-        margin: 23px;
-        margin-bottom: 48px;
+		padding: 11px 0px 30px 13px;
+		margin: 23px;
+		margin-bottom: 48px;
 	}
 
 	.clatch__title, .look__title {
@@ -656,14 +656,17 @@ height: 22px;
 	}
 
 	.look__article {
-		padding: 22px 21px 28px 25px;
-        margin-bottom: 37px;
-        max-width: 470px;
+		padding: 22px 21px 34px 25px;
+		margin-bottom: 37px;
+		max-width: 470px;
 	}
 
 	.look__title, .look__subtitle, 
 	.look__description {
 		padding-left: 14px;
+		padding-top: 4px;
+		line-height: 11px;
+		margin-bottom: 11px;
 	} 
 
 	.look__link {

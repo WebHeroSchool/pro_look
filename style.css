@@ -187,9 +187,9 @@ height: 5.5px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 400px;
-    min-width: 400px;
-    padding: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 .clatch__title, .look__title {
@@ -211,7 +211,8 @@ height: 5.5px;
 	font: normal normal 15px/21px Montserrat;
 	max-width: 368px;
 	opacity: 0.5;
-	margin-bottom: 29px;
+	margin-top: 0;
+    margin-bottom: 17px;
 }
 
 .clatch__detail {
@@ -570,10 +571,8 @@ height: 22px;
 		padding: 50px 0 0px 0;
 	}
 
-	.clatch__content {
-	}
-
 	.clatch__article {	   
+		max-width: 308px;
 	    padding: 16px 0px 30px 0;
 	}
 

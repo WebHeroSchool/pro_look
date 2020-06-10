@@ -8,11 +8,12 @@ button, a:hover {
 	cursor: pointer;
 	opacity: 0.9;
 }
+
 /*-------------------header-------------------*/
 .header {	
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 18px;
+	padding-bottom: 19px;
 }
 
 .header__title {
@@ -150,9 +151,9 @@ button, a:hover {
 	background: white;
 	border: none;	
 	margin-right: 5.7%;
-    width: 27px;
-    display: flex;
-    align-items: center;
+	width: 27px;
+	display: flex;
+	align-items: center;
 }
 
 .main__btn_scroll:hover {
@@ -334,11 +335,11 @@ button, a:hover {
 
 .look__photo {
 	width: 100%;
-    height: auto;
-    max-width: 829px;
-    max-height: 621px;
-    padding-left: 41px;
-    margin-bottom: 133px;
+	height: auto;
+	max-width: 829px;
+	max-height: 621px;
+	padding-left: 41px;
+	margin-bottom: 133px;
 }
 
 .look__content {
@@ -353,11 +354,11 @@ button, a:hover {
 
 .look__article {
 	background: #FAE8E4;
-    max-width: 475px;
-    max-height: 351px;
-    padding: 1% 7% 9% 9%;
-    margin-bottom: 11%;
-    margin-top: 123px;
+	max-width: 475px;
+	max-height: 351px;
+	padding: 1% 7% 9% 9%;
+	margin-bottom: 11%;
+	margin-top: 123px;
 }
 
 .look__subtitle {
@@ -643,6 +644,7 @@ button, a:hover {
 		background: linear-gradient(to right, #EBE3D8 27%, black 27%, black 38%, #EBE3D8 38%);
 		flex-direction: column;    	
 		padding-top: 30px;	
+		align-items: center;
 	}
 
 	.look__picture {
@@ -662,6 +664,7 @@ button, a:hover {
 		padding: 22px 21px 34px 25px;
 		margin-bottom: 37px;
 		max-width: 470px;
+		margin-top: 0;
 	}
 
 	.look__title, .look__subtitle, 

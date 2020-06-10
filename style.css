@@ -165,7 +165,6 @@ button, a:hover {
 	justify-content: center;
 	padding-top: 11.5%;
 	overflow: auto;
-	min-height: 735px;
 }
 
 .clatch__picture {
@@ -328,11 +327,9 @@ button, a:hover {
 
 .look {
 	display: flex;
-	justify-content: center;  
-	align-items: center; 
+	justify-content: center;   
 	padding-top: 10%;
 	overflow: auto;
-	min-height: 756px;
 }
 
 .look__photo {
@@ -356,10 +353,11 @@ button, a:hover {
 
 .look__article {
 	background: #FAE8E4;
-	max-width: 475px;
+    max-width: 475px;
     max-height: 351px;
-    padding: 1% 7% 13% 9%;
-    margin-bottom: 24%;
+    padding: 1% 7% 9% 9%;
+    margin-bottom: 11%;
+    margin-top: 123px;
 }
 
 .look__subtitle {
@@ -392,7 +390,8 @@ button, a:hover {
 	display: flex;
 	justify-content: flex-end;    
 	padding-right: 29px;
-	padding-bottom: 8px;   
+	padding-bottom: 8px; 
+	margin-top: -40px;  
 }
 
 .footer__txt {

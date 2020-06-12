@@ -13,7 +13,7 @@ button, a:hover {
 .header {	
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 19px;
+	padding-bottom: 20px;
 }
 
 .header__title {
@@ -67,12 +67,13 @@ button, a:hover {
 
 .main__picture {
 	padding-left: 20px;
+	margin-top: 44px;
 }
 
 .main__photo {
 	width: 100%;
 	max-width: 550px;	
-	margin-right: 46px;	
+	margin-right: 39px;	
 	height: auto;
 }
 
@@ -84,8 +85,8 @@ button, a:hover {
 .main__title {
 	font: normal bold 80px/82px Montserrat;	
 	margin-bottom: 0;
-	margin-top: 82px;
-	padding-left: 10px;
+    margin-top: 73px;
+    padding-left: 4px;
 }
 
 .main__arrow-down {
@@ -97,7 +98,7 @@ button, a:hover {
 	display: block;	
 	max-width: 467px;	
 	margin-bottom: 35px;
-	padding-left: 10px;	
+	padding-left: 5px;	
 }
 
 .main__btn {
@@ -107,7 +108,7 @@ button, a:hover {
 	border: 1.5px solid #000000;
 	width: 42.8%;
 	height: 44px;    
-	margin-left: 6px;
+	margin-left: 0px;
 	margin-right: 6%;
 	text-transform: uppercase;
 }
@@ -135,11 +136,11 @@ button, a:hover {
 
 .main__footer {
 	display: flex;
-	justify-content: space-between;
-	width: 50%;
-	height: auto;
-	padding: 8.6% 3.4%;
-	padding-bottom: 37px;
+    justify-content: space-between;
+    width: 50%;
+    height: auto;
+    padding: 5.6% 3.4%;
+    padding-bottom: 37px
 }
 
 .main__instagram-icon,.main__vk-icon, .main__facebook-icon {
@@ -533,6 +534,7 @@ button, a:hover {
 		height: 100%;
 		width: 100%;
 		padding-left: 0;
+		margin-top: 0;
 	}
 
 	.main__photo {		

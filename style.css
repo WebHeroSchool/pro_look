@@ -147,6 +147,7 @@ button, a:hover {
 .main__instagram-icon,.main__vk-icon, .main__facebook-icon {
 	width: 43px;
 	height: 43px;
+	margin-right: 12px;
 }
 
 .main__btn_scroll {
@@ -200,6 +201,7 @@ button, a:hover {
     padding: 40px;
     box-sizing: border-box;
     margin-bottom: 42px;
+    margin: 23px;
 }
 
 .clatch__title, .look__title {
@@ -606,13 +608,12 @@ button, a:hover {
 	.clatch__article {	   
 		max-width: 320px;
 		padding: 11px 0px 30px 13px;
-		margin: 23px;
 		margin-bottom: 48px;
 	}
 
 	.clatch__title, .look__title {
 		font: normal bold 20px/20px Montserrat;
-		padding-left: 30px;
+		padding-left: 21px;
 		margin-bottom: 6px;
 		line-height: 24px;
 	}
@@ -630,7 +631,7 @@ button, a:hover {
 	}
 
 	.clatch__detail {		
-		margin-bottom: 13px;
+		margin-bottom: 19px;
 		padding: 0 25px 0 30px;  
 	}
 
